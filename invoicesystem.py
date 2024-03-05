@@ -2,7 +2,7 @@ from datetime import datetime
 import mysql.connector
 
 
-mydb = mysql.connector.connect(host="localhost", user="root", password="2460480sai", port=3306)
+mydb = mysql.connector.connect(host="localhost", user="root", password="#######", port=3306)
 my_cursor = mydb.cursor()
 # my_cursor.execute("create database pharmacy")
 my_cursor.execute("use pharmacy")
